@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Sign In</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/jqmobile_143.min.css" />
+        <script src="js/jquery-1.11.1.min.js"></script>
+        <script src="js/jqmobile_143.min.js"></script>
+<!-- Resources -->
+	<script src="js/myscript.js"></script>
+	<link rel="stylesheet" href="css/mystyles.css" />
+        
+</head>
+<body>
+    <div id="index" data-role="page" data-title="View Source: Welcome">
+        <!--Left User Panel Start-->
+        <div id="nav-panel" data-role="panel" data-position-fixed="true" data-display="push" data-theme="a" style="background: #F2F2F2">    
+            <a href="#"
+               data-theme="a"
+               data-role="button"
+               data-corners="false"
+               data-mini="true"
+               data-icon="delete"
+               data-iconpos="center"
+               data-rel="close"
+               class="font-driod"
+               style="color: #0099cc"
+               >Click to go Back</a>
+            <ul data-role="controlgroup" data-corners="false" data-mini="true" data-theme="a" class="nav-search">
+                <li><a href="#"
+                       class="pannel-txt"
+                       data-theme="a"
+                       data-role="button"
+                       data-icon="arrow-r"
+                       data-iconpos="right"
+                       data-transition="slide"
+                       ><img class="pannel-img-icon" src="img/member.png" />Profile</a></li>
+                <li><a href="#"
+                       class="pannel-txt"
+                       data-theme="a"
+                       data-role="button"
+                       data-icon="arrow-r"
+                       data-iconpos="right"
+                       data-transition="slide"
+                       ><img class="pannel-img-icon" src="img/viewadz.png" />Edit Adz</a></li>
+                <li><a href="#"
+                       class="pannel-txt"
+                       data-theme="a"
+                       data-role="button"
+                       data-icon="arrow-r"
+                       data-iconpos="right"
+                       data-transition="slide"
+                       ><img class="pannel-img-icon" src="img/Skype-icon.png" />Business Section</a></li>
+                <li><a href="#"
+                       class="pannel-txt"
+                       data-theme="a"
+                       data-role="button"
+                       data-icon="arrow-r"
+                       data-iconpos="right"
+                       data-transition="slide"
+                       ><img class="pannel-img-icon" src="img/Notes-icon.png" />F & Q</a></li>
+                <li><a href="#"
+                       class="pannel-txt"
+                       data-theme="a"
+                       data-role="button"
+                       data-icon="arrow-r"
+                       data-iconpos="right"
+                       data-transition="slide"
+                       ><img class="pannel-img-icon" src="img/Notes-icon.png" />Help</a></li>
+                <li><a href="contactus.html"
+                       class="pannel-txt"
+                       data-theme="a"
+                       data-role="button"
+                       data-icon="arrow-r"
+                       data-iconpos="right"
+                       data-transition="slide"
+                       ><img class="pannel-img-icon" src="img/Mail-icon.png" />Contact Us</a></li>
+                <li><a href="aboutus.html"
+                       class="pannel-txt"
+                       data-theme="a"
+                       data-role="button"
+                       data-icon="arrow-r"
+                       data-iconpos="right"
+                       data-transition="slide"
+                       ><img class="pannel-img-icon" src="img/pin.png" />About Us</a></li>      
+            </ul>
+            
+            <h6 class="my-h6">Copyright © Ad Piyasa 2014
+                <br>All Rights Reserved.
+            <br>Powered By :<a href="http://www.d2real.com">D2Real</a></h6>
+            <center><img class="d2rlogo-img" style="margin:-8px" src="img/dlogo.png" /></center>
+        </div>
+        <!--Left User Panel End-->
+        
+        <div id="main-header" data-role="header" data-position="fixed">
+            <a href="#nav-panel" data-icon="bars" data-iconpos="notext">Menu</a>
+            <h1>Register</h1>
+        </div>
+        <div data-role="content">       
+            <h3>Fill the form to Register</h3>
+            <p class="my-p">The best deals are often done with people who live in your own city or on your own street, so on Adpiyasa.com it's easy to buy and sell locally. All you have to do is select your region</p>
+            <form id="login" class="userform">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" required="" value="" data-clear-btn="true" data-mini="true">
+                <label for="name">Phone Number:</label>
+                <input type="text" name="name" id="mobile_num" value="" data-clear-btn="true" data-mini="true">
+                <label for="name">E-mail: (optional)</label>
+                <input type="email" name="name" id="email" value="" data-clear-btn="true" data-mini="true">
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" value="" data-clear-btn="true" autocomplete="off" data-mini="true">
+                <label for="password">Type Password again:</label>
+                <input type="password" name="password" id="repassword" value="" data-clear-btn="true" autocomplete="off" data-mini="true">
+                <div class="ui-grid-a">
+                    <div class="ui-block-a">
+                        <a href="index.html"
+                           data-rel="close"
+                           data-role="button"
+                           data-theme="a"
+                           data-transition="flip"
+                           data-mini="true"
+                           class="font-driod"
+                           >Cancel</a></div>
+                    <div class="ui-block-b">
+                        <a href="profile.html"
+                           id="signup"
+                           data-role="button"
+                           data-theme="a"
+                           data-mini="true"
+                           class="font-driod"
+                           >Sign Up</a>
+                    </div>
+                </div>
+            </form>
+            <p>If you are Already a Member <a href="signin.html" data-transition="flow">Sign in</a></p>
+            
+            <!--Featured Adz Start-->
+                <div class="ui-grid-solo">
+                    <h3 style="color: #C858CB; margin: 5px auto -8px 3px">Featured Adz</h3>
+                    <ul data-role="listview" data-split-icon="info" data-split-theme="a" data-inset="true">
+                        <li><a href="#" style="background-color: #EAEAEA; margin-top: 5px; padding: 0px; padding-left: 100px">
+                                <img style="height: 100%" src="img/adz/phone2.jpg">
+                                <h5>iPhone 6 with BRAND NEW CONDITION</h5>
+                                <p>Factory unlock 
+                                    Black Color/ Housing changed White color with gold back 
+                                    In mint/ close to BRAND NEW condition. Back and front stickers still on. 
+                                    Full set available with Same IMEI Box</p>
+                                <p>Price : $ 800.00</p></a>
+                            <a href="#iphone" data-rel="popup" data-position-to="window" data-transition="pop">Info</a>
+                        </li>
+                    </ul>
+                </div>
+                <div data-role="popup" id="iphone" data-theme="b" data-overlay-theme="b" class="ui-content" style="max-width:340px; padding-bottom:2em;">
+                    <a href="#"
+                       data-theme="b"
+                       data-role="button"
+                       data-corners="false"
+                       data-mini="true"
+                       data-icon="delete"
+                       data-iconpos="notext"
+                       data-rel="back"
+                       >Close</a>
+                    <img src="img/adz/phone2.jpg">
+                    <h4 style="color: #09BECD">iPhone 6 with BRAND NEW CONDITION</h4>
+                    <p>Factory unlock 
+                        Black Color/ Housing changed White color with gold back 
+                        In mint/ close to BRAND NEW condition. Back and front stickers still on. 
+                        Full set available with Same IMEI Box</p>
+                    <p style="color: #09BECD"><i>Contact Details</i></p>
+                    <p>Name: Srimal Priyanga</p>
+                    <p>E-mail: priyanga@d2real.com</p>
+                    <p>Dial: 0779093013</p>
+                </div>
+                <!--Featured Adz End-->
+        </div>
+        <!--Page main content End-->
+            
+            <!--Footer Start-->
+            <div data-role="footer" data-position="fixed">
+                <div data-role="navbar">
+                    <ul id="footer">
+                        <li><a href="index.html"
+                               data-role="button"
+                               data-icon="grid"
+                               data-transition="flip"
+                               class="font-driod"
+                               ></a></li>
+                        <li><a href="viewad.html"
+                               data-role="button"
+                               data-icon="eye"
+                               data-transition="slide"
+                               class="font-driod ui-btn-icon-left"
+                               ></a></li>
+                        <li><a href="postad.html"
+                               data-role="button"
+                               data-icon="plus"
+                               data-transition="slide"
+                               class="font-driod"
+                               ></a></li>  
+                    </ul>
+                </div>
+            </div>
+            <!--Footer End-->
+            
+            <!--SignUp Fail Popup Start-->
+            <div data-role="popup" id="signup_failed" data-theme="a" data-overlay-theme="b" class="ui-content" style="max-width:340px; padding-bottom:2em;">
+                <a href="#"
+                   data-theme="a"
+                   data-role="button"
+                   data-corners="false"
+                   data-mini="true"
+                   data-icon="delete"
+                   data-iconpos="notext"
+                   data-rel="back"
+                   >Close</a>
+                <h5 style="color: #666666">Your Username or Password is incorrect please try again</h5>
+                <div class="ui-grid-solo">
+                    <a href="signin.html"
+                       data-theme="a"
+                       data-role="button"
+                       data-iconpos="right"
+                       data-transition="flow"
+                       data-inline="false"
+                       class="font-driod"
+                       style="color: #0099cc"
+                       >Try Again</a>
+                </div>
+            </div>
+            <!--SignUp Fail Popup End-->
+            
+            <script>
+                    function signup(){
+//                 alert("okk");
+//                 console.log("okkkk");
+                 //$.support.cors = true;
+                 
+//                    var code=$('#name').val();
+//                    console.log(code);
+//                 
+//                var user;
+////                
+//                name= $('#name').val();
+//                mobile_num= $('#mobile_num').val();
+//                email= $('#email').val();
+//                user.password= $('#password').val();
+                 //name=$('#name').val()
+//                 var user;
+//                 user.name='name';
+               $.ajax({
+                    type: 'POST',
+                    url:  'http://adpiyasa.com/app/webservice/reg_user/signup_user',
+                    data:  { 
+                name: $('#name').val(),
+                mobile_num: $('#mobile_num').val(),
+                email: $('#email').val(),
+                password: $('#password').val()
+            },
+//                    error: function(e) {
+//                        console.log(e);
+//                    },
+                    dataType: "json",
+//                    contentType: "application/json"
+                    success: function(response) {
+                        if(response.status === "successed") {
+                            localStorage.setItem('profilename', "name");
+                             window.location.replace("profile.html");
+                        } else {
+                             window.location.replace("#signup_failed");
+                        }
+                     }
+                 });
+
+             };
+
+                </script>
+            
+        </div>
+    
+    <!--SignUp function Start-->
+<!--    <div data-role="page">
+        <script>
+               function signup(){
+                 alert("okk");
+                 console.log("okkkk");
+               $.ajax({
+                    type: 'POST',
+                    url:  'http://adpiyasa.com/app/webservice/reg_user/signup_user',
+                    data: { 
+                             username: $('#name').val(), 
+                             password: $('#mobile_num').val(),
+                             username: $('#email').val(), 
+                             password: $('#password').val()
+                         },
+                    dataType: 'json',
+                    success: function(response) {
+                        if(response.status === "successed") {
+                             window.location.replace("profile.html");
+                        } else {
+                             window.location.replace("#signup_fail");
+                        }
+                     }
+                 });
+
+             };
+        </script>
+    </div>-->
+    <!--SignUp function End-->
+    </body>
+</html>

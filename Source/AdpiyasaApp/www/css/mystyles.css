@@ -1,0 +1,185 @@
+/* 
+    Document   : mystyles
+    Created on : Nov 14, 2013, 8:39:31 PM
+    Author     : S.Priyanga <s.priyanga22@gmail.com>
+    Description:
+        Purpose of the stylesheet follows.
+*/
+p{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: justify
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Droid Serif', serif;
+}
+.font-driod{
+    font-family: 'Droid Serif', serif;
+}
+.font-ubuntu{
+    font-family: 'Ubuntu', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.logo-img{ 
+    margin: 30px 0 0 0;
+}
+.com-logo-img{ 
+    margin-right: 5px;
+    width: 64px;
+    border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+    border: 2px solid #3085B0;
+}
+.slider-img{
+    width: 100%;
+    height: auto;
+/*    max-width: 320px;
+    max-height: 160px;*/
+    display: block;
+}
+.d2rlogo-img{ 
+margin: 12px 0 0 0;
+    width: 55px;
+    height: 30px;
+}
+.my-h1{
+    text-align: center;
+    
+}
+.my-h4{
+    text-align: center;
+    color: #2373a5;
+}
+.my-h6{
+    text-align: center;
+    font-size: 10px;
+}
+.my-p{
+    text-align: justify;
+    
+}
+.my-p-index{
+    text-align: center;
+    
+}
+.ui-icon-my-viewadz{/* to custom icons */
+    background-image: url(../img/viewadz.png)
+}
+.pannel-img-icon {/* main pannel images */
+    margin: 0 8px 0 3px;
+    float: left;
+    width: 20px;
+    height: 20px;
+}
+.pannel-txt{/* main pannel text */
+    font-family: 'Ubuntu', sans-serif;
+    text-align: left;
+    font-weight: 100;
+    
+}
+.cnt-margin{
+    margin: 0 0px;
+}
+.view-ad-list> li > a{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+#footer > li > a{
+    color: #0099cc
+}
+/*----------------------------------Company Profile*/
+.com-prof-td-all{
+    background-color: #e6e2e2
+}
+.title{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 3px;
+    background-color: #ddd;
+}
+.title-web{
+    color: #fff;
+    background-color: #5cb85c;
+}
+.title-fb{
+    color: #fff;
+    background-color: #428bca;
+}
+.title-tw{
+    color: #fff;
+    background-color: #5bc0de;
+}
+.title-gl{
+    color: #fff;
+    background-color: #d9534f;
+}
+tr > td{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/*------------------------------------------Tooltip Customize*/ 
+.ui-btn.my-tooltip-btn,
+.ui-btn.my-tooltip-btn:hover,
+.ui-btn.my-tooltip-btn:active {
+    background: none;
+    border: 0;
+}
+
+/*These apply across all breakpoints because they are outside of a media query */
+table.phone-compare thead th {
+    background-color: #fff;
+}
+table.phone-compare thead th h4 {
+    text-transform: uppercase;
+    font-size: 0.6em;
+    margin: 0;
+}
+table.phone-compare thead th h3 {
+    font-size: .9em;
+    margin: -.4em 0 .8em 0;
+}
+table.phone-compare th.label {
+    text-transform: uppercase;
+    font-size: 0.6em;
+    opacity: 0.5;
+    padding: 1.2em .8em;
+    background-color: #ddd;
+}
+/*  Use the target selector to style the column chooser button */
+a[href="#phone-table-popup"] {
+    margin-bottom: 1.2em;
+}
+/* Show priority 1 at 320px (20em x 16px) */
+@media screen and (min-width: 20em) {
+    .phone-compare th.ui-table-priority-1,
+    .phone-compare td.ui-table-priority-1 {
+        display: table-cell;
+    }
+}
+/* Show priority 2 at 560px (35em x 16px) */
+@media screen and (min-width: 35em) {
+    .phone-compare th.ui-table-priority-2,
+    .phone-compare td.ui-table-priority-2 {
+        display: table-cell;
+    }
+}
+/* Show priority 3 at 720px (45em x 16px) */
+@media screen and (min-width: 45em) {
+    .phone-compare th.ui-table-priority-3,
+    .phone-compare td.ui-table-priority-3 {
+        display: table-cell;
+    }
+}
+/* Manually hidden */
+.phone-compare th.ui-table-cell-hidden,
+.phone-compare td.ui-table-cell-hidden {
+    display: none;
+}
+/* Manually shown */
+.phone-compare th.ui-table-cell-visible,
+.phone-compare td.ui-table-cell-visible {
+    display: table-cell;
+}

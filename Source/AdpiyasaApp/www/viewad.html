@@ -1,0 +1,427 @@
+<!--
+ *
+ *   Copyright © 2009 - 2013 KnightSofts Solutions.
+ *   All Rights Reserved.
+ *
+ *   These materials are unpublished, proprietary, confidential source code of
+ *   KnightSofts Solutions (pvt) Limited and constitute a TRADE SECRET of KnightSofts Solutions (pvt) Limited.
+ *
+ *   Author : S.Priyanga <s.priyanga22@gmail.com>
+ *   Created on : Sep 11, 2014, 10:50:46 PM
+ *   
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Post Adz</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/jqmobile_143.min.css" />
+        <script src="js/jquery-1.11.1.min.js"></script>
+        <script src="js/jqmobile_143.min.js"></script>
+        <!-- Resources -->
+        <script src="js/myscript.js"></script>
+        <link rel="stylesheet" href="css/mystyles.css" />
+    </head>
+    <body>
+        <div id="index" data-role="page" data-title="Welcome">
+            <!--Left User Panel Start-->
+            <div id="nav-panel" data-role="panel" data-position-fixed="true" data-display="push" data-theme="a" style="background: #F2F2F2">    
+                <a href="#"
+                   data-theme="a"
+                   data-role="button"
+                   data-corners="false"
+                   data-mini="true"
+                   data-icon="delete"
+                   data-iconpos="center"
+                   data-rel="close"
+                   class="font-driod"
+                   style="color: #0099cc"
+                   >Click to go Back</a>
+                <ul data-role="controlgroup" data-corners="false" data-mini="true" data-theme="a" class="nav-search">
+                    <li><a href="#"
+                           class="pannel-txt"
+                           data-theme="a"
+                           data-role="button"
+                           data-icon="arrow-r"
+                           data-iconpos="right"
+                           data-transition="slide"
+                           ><img class="pannel-img-icon" src="img/member.png" />Profile</a></li>
+                    <li><a href="#"
+                           class="pannel-txt"
+                           data-theme="a"
+                           data-role="button"
+                           data-icon="arrow-r"
+                           data-iconpos="right"
+                           data-transition="slide"
+                           ><img class="pannel-img-icon" src="img/viewadz.png" />Edit Adz</a></li>
+                    <li><a href="#"
+                           class="pannel-txt"
+                           data-theme="a"
+                           data-role="button"
+                           data-icon="arrow-r"
+                           data-iconpos="right"
+                           data-transition="slide"
+                           ><img class="pannel-img-icon" src="img/Skype-icon.png" />Business Section</a></li>
+                    <li><a href="#"
+                           class="pannel-txt"
+                           data-theme="a"
+                           data-role="button"
+                           data-icon="arrow-r"
+                           data-iconpos="right"
+                           data-transition="slide"
+                           ><img class="pannel-img-icon" src="img/Notes-icon.png" />F & Q</a></li>
+                    <li><a href="#"
+                           class="pannel-txt"
+                           data-theme="a"
+                           data-role="button"
+                           data-icon="arrow-r"
+                           data-iconpos="right"
+                           data-transition="slide"
+                           ><img class="pannel-img-icon" src="img/Notes-icon.png" />Help</a></li>
+                    <li><a href="contactus.html"
+                           class="pannel-txt"
+                           data-theme="a"
+                           data-role="button"
+                           data-icon="arrow-r"
+                           data-iconpos="right"
+                           data-transition="slide"
+                           ><img class="pannel-img-icon" src="img/Mail-icon.png" />Contact Us</a></li>
+                    <li><a href="aboutus.html"
+                           class="pannel-txt"
+                           data-theme="a"
+                           data-role="button"
+                           data-icon="arrow-r"
+                           data-iconpos="right"
+                           data-transition="slide"
+                           ><img class="pannel-img-icon" src="img/pin.png" />About Us</a></li>      
+                </ul>
+
+                <h6 class="my-h6">Copyright © Ad Piyasa 2014
+                    <br>All Rights Reserved.
+                    <br>Powered By :<a href="http://www.d2real.com">D2Real</a></h6>
+                <center><img class="d2rlogo-img" style="margin:-8px" src="img/dlogo.png" /></center>
+            </div>
+            <!--Left User Panel End-->
+
+            <!--Right Login Panel Start-->
+            <div data-role="panel" data-position="right" data-position-fixed="true" data-display="overlay" data-theme="a" id="add-form">
+                <div id="login-panel" data-role="header" data-position="fixed">
+                    <h2 style="color: #0099cc">Sign In</h2>
+                </div>
+                <br /><br />
+                <form id="signin" class="userform">
+                    <p>Enter your username email or mobile number</p>
+                    <label for="name">Username:</label>
+                    <input type="text" name="name" id="name" value="" data-clear-btn="true" data-mini="true">
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" id="password" value="" data-clear-btn="true" autocomplete="off" data-mini="true">
+                    <div class="ui-grid-a">
+                        <div class="ui-block-a"><a href="#" class="font-driod" data-rel="close" data-role="button" data-theme="a" data-mini="true">Cancel</a></div>
+                        <div class="ui-block-b"><a href="index.html" class="font-driod" data-rel="close" data-role="button" data-theme="a" data-mini="true">Sign in</a></div>
+                    </div>
+                    <div class="ui-grid-solo">
+                        <a href="signup.html"
+                           data-role="button"
+                           data-icon="edit"
+                           data-iconpos="right"
+                           data-transition="slide"
+                           data-inline="false"
+                           class="font-driod"
+                           >Or Register</a>
+                    </div>
+                </form>
+            </div>
+            <!--Right login Panel End-->
+
+            <!--Page main content Start-->
+            <div id="main-header" data-role="header" data-position="fixed">
+                <a href="#nav-panel" data-icon="bars" data-iconpos="notext">Menu</a>
+                <h1>View Ads</h1>
+                <a href="#add-form" data-icon="gear" data-iconpos="notext">Add</a>
+            </div>
+
+            <div data-role="content">
+                <h3>Select a Category</h3>
+                <p>Choose a category according to your need</p>
+                <!-- Adz Categories -->        
+                <div class="cnt-margin" data-role="collapsible" data-mini="true" data-theme="a" data-content-theme="a">
+                    <h4>Electronics</h4>
+                    <ul data-role="listview" class="view-ad-list" data-filter="true">
+                        <li><a href="ads.html">Home Speakers & Subwoofers</a></li>
+                        <li><a href="index.php?page=102">Digital cameras</a></li>
+                        <li><a href="index.php?page=103">Camcoders</a></li>
+                        <li><a href="index.php?page=104">Camera & Photo accessories</a></li>
+                        <li><a href="index.php?page=105">Binoculars & Telescopes</a></li>
+                        <li><a href="index.php?page=106">Televisions</a></li>
+                        <li><a href="index.php?page=107">Home Audio</a></li>
+                        <li><a href="index.php?page=108">Home Survelliance</a></li>
+                        <li><a href="index.php?page=109">Dvd Blu-ray Players</a></li>
+                        <li><a href="index.php?page=110">Portable Audio Accessories</a></li>
+                        <li><a href="index.php?page=111">Vintage</a></li>
+                        <li><a href="index.php?page=112">Gadgets</a></li>
+                        <li><a href="index.php?page=113">Car audio systems</a></li>
+                        <li><a href="index.php?page=114">Other Household Electronic items</a></li>
+                        <li><a href="index.php?page=115">Consumer Electronics</a></li>
+                        <li><a href="index.php?page=116">Other Electronics</a></li>               
+                    </ul>
+                </div><!-- /collapsible -->
+                <div class="cnt-margin" data-role="collapsible" data-mini="true" data-theme="a" data-content-theme="a">
+                    <h4>Vehicles</h4>
+                    <ul data-role="listview" class="view-ad-list" data-filter="true">
+                        <li><a href="index.php?page=201">Cars</a></li>
+                        <li><a href="index.php?page=202">Vans</a></li>
+                        <li><a href="index.php?page=203">Jeeps</a></li>
+                        <li><a href="index.php?page=204">Motor-bikes</a></li>
+                        <li><a href="index.php?page=205">Three-wheelers</a></li>
+                        <li><a href="index.php?page=206">Trucks</a></li>
+                        <li><a href="index.php?page=207">Bicycles</a></li>
+                        <li><a href="index.php?page=208">Other vehicles</a></li>
+                        <li><a href="index.php?page=209">Vehicles for rent</a></li>
+                        <li><a href="index.php?page=210">Vehicle Parts and accessories</a></li>
+                        <li><a href="index.php?page=211">Other</a></li>
+                    </ul>
+                </div><!-- /collapsible -->
+                <div class="cnt-margin" data-role="collapsible" data-mini="true" data-theme="a" data-content-theme="a">
+                    <h4>Real Estate</h4>
+                    <ul data-role="listview" class="view-ad-list" data-filter="true">
+                        <li><a href="index.php?page=301">Houses, Apartments for sale</a></li>
+                        <li><a href="index.php?page=302">Houses, Apartments for rent</a></li>
+                        <li><a href="index.php?page=303">Rooms for rent, shared</a></li>
+                        <li><a href="index.php?page=304">Lands for sale</a></li>
+                        <li><a href="index.php?page=305">Office, Commercial space</a></li>
+                        <li><a href="index.php?page=306">Shops for rent</a></li>
+                        <li><a href="index.php?page=307">Pools & Spas</a></li>
+                        <li><a href="index.php?page=308">Manufactured Homes</a></li>
+                        <li><a href="index.php?page=309">Residential</a></li>
+                        <li><a href="index.php?page=310">Other</a></li>
+                    </ul>
+                </div><!-- /collapsible -->
+                <div class="cnt-margin" data-role="collapsible" data-mini="true" data-theme="a" data-content-theme="a">
+                    <h4>Computers</h4>
+                    <ul data-role="listview" class="view-ad-list" data-filter="true">
+                        <li><a href="index.php?page=401">Desktop Computers</a></li>
+                        <li><a href="index.php?page=402">Laptop Computers</a></li>
+                        <li><a href="index.php?page=403">ALL-IN-One Computers</a></li>
+                        <li><a href="index.php?page=404">Printers Scanners & Supplies</a></li>
+                        <li><a href="index.php?page=405">Networking & Connectivity</a></li>
+                        <li><a href="index.php?page=406">Componets & Parts</a></li>
+                        <li><a href="index.php?page=407">Drivers & Storage Media</a></li>
+                        <li><a href="index.php?page=408">Other Computer Accessories</a></li>
+                        <li><a href="index.php?page=409">Projectors,Moniters and accessories</a></li>
+                        <li><a href="index.php?page=410">Power Protection, Distribution</a></li>
+                        <li><a href="index.php?page=411">Software Products and Software Services</a></li>
+                        <li><a href="index.php?page=412">Vintage Computing</a></li>
+                        <li><a href="index.php?page=413">CDs</a></li>
+                        <li><a href="index.php?page=414">Other</a></li>
+                    </ul>
+                </div><!-- /collapsible -->
+                <div class="cnt-margin" data-role="collapsible" data-mini="true" data-theme="a" data-content-theme="a">
+                    <h4>Mobile Phones</h4>
+                    <ul data-role="listview" class="view-ad-list" data-filter="true">
+                        <li><a href="index.php?page=501">Mobile Phones for sale</a></li>
+                        <li><a href="index.php?page=502">Mobile Phone accessories</a></li>
+                        <li><a href="index.php?page=503">ipads\Tablets\eBook Readers</a></li>
+                        <li><a href="index.php?page=504">ipads\Tablets\eBook Access</a></li>
+                        <li><a href="index.php?page=505">Smart Watches</a></li>
+                        <li><a href="index.php?page=506">Phone Cards & SIM Cards</a></li>
+                        <li><a href="index.php?page=507">Replacement Parts & Tools</a></li>
+                        <li><a href="index.php?page=508">Wholesale Lots</a></li>
+                        <li><a href="index.php?page=509">Other</a></li>
+                    </ul>
+                </div><!-- /collapsible -->
+                <div class="cnt-margin" data-role="collapsible" data-mini="true" data-theme="a" data-content-theme="a">
+                    <h4>Education</h4>
+                    <ul data-role="listview" class="view-ad-list" data-filter="true">
+                        <li><a href="index.php?page=601">Books</a></li>
+                        <li><a href="index.php?page=602">Magazines</a></li>
+                        <li><a href="index.php?page=603">CD DVD's</a></li>
+                        <li><a href="index.php?page=604">Other Educational Items</a></li>
+                    </ul>
+                </div><!-- /collapsible -->
+                <div class="cnt-margin" data-role="collapsible" data-mini="true" data-theme="a" data-content-theme="a">
+                    <h4>Musical Instruments & Gear</h4>
+                    <ul data-role="listview" class="view-ad-list" data-filter="true">
+                        <li><a href="index.php?page=701">Accordian & Concertina</a></li>
+                        <li><a href="index.php?page=702">Brass</a></li>
+                        <li><a href="index.php?page=703">Equpment</a></li>
+                        <li><a href="index.php?page=704">Guitar</a></li>
+                        <li><a href="index.php?page=705">Harmonica</a></li>
+                        <li><a href="index.php?page=706">Karaoke Entertainment</a></li>
+                        <li><a href="index.php?page=707">Percussion</a></li>
+                        <li><a href="index.php?page=708">Pianos, Keyboards & Organs</a></li>
+                        <li><a href="index.php?page=709">Pro Audio Equipment</a></li>
+                        <li><a href="index.php?page=710">Strings</a></li>
+                        <li><a href="index.php?page=711">Other</a></li>
+                </div><!-- /collapsible -->
+                <div class="cnt-margin" data-role="collapsible" data-mini="true" data-theme="a" data-content-theme="a">
+                    <h4>Home & Personal Items</h4>
+                    <ul data-role="listview" class="view-ad-list" data-filter="true">
+                        <li><a href="index.php?page=801">Furniture</a></li>
+                        <li><a href="index.php?page=802">Home & Garden</a></li>
+                        <li><a href="index.php?page=803">White Goods</a></li>
+                        <li><a href="index.php?page=804">Kitchenware</a></li>
+                        <li><a href="index.php?page=805">Clothes, footwear & accessories</a></li>
+                        <li><a href="index.php?page=806">Children's Items</a></li>
+                        <li><a href="index.php?page=807">Health & Beauty</a></li>
+                        <li><a href="index.php?page=808">Other home improvements</a></li>
+                        <li><a href="index.php?page=809">Paio & Garden Furniture</a></li>
+                        <li><a href="index.php?page=810">Bathroom Fittings</a></li>
+                        <li><a href="index.php?page=811">Home Security</a></li>
+                        <li><a href="index.php?page=812">Antiques</a></li>
+                        <li><a href="index.php?page=813">Other Home & Personal Items</a></li>
+                    </ul>
+                </div><!-- /collapsible -->
+                <div class="cnt-margin" data-role="collapsible" data-mini="true" data-theme="a" data-content-theme="a">
+                    <h4>Leisure, Hobby & Sports</h4>
+                    <ul data-role="listview" class="view-ad-list" data-filter="true">
+                        <li><a href="index.php?page=901">Art & Collectibles</a></li>
+                        <li><a href="index.php?page=902">Sports & Equipments</a></li>
+                        <li><a href="index.php?page=903">Movies, Books, Magazines</a></li>
+                        <li><a href="index.php?page=904">Music & Instruments</a></li>
+                        <li><a href="index.php?page=905">Tickets</a></li>
+                        <li><a href="index.php?page=906">Stamps</a></li>
+                        <li><a href="index.php?page=907">Travel</a></li>
+                        <li><a href="index.php?page=908">Video Games & Consoles</a></li>
+                        <li><a href="index.php?page=909">Other</a></li>
+                    </ul>
+                </div><!-- /collapsible -->
+                <div class="cnt-margin" data-role="collapsible" data-mini="true" data-theme="a" data-content-theme="a">
+                    <h4>Food & Agriculture</h4>
+                    <ul data-role="listview" class="view-ad-list" data-filter="true">
+                        <li><a href="index.php?page=1001">Fruit</a></li>
+                        <li><a href="index.php?page=1002">Vegetables</a></li>
+                        <li><a href="index.php?page=1003">Fish</a></li>
+                        <li><a href="index.php?page=1004">Meats</a></li>
+                        <li><a href="index.php?page=1005">Seeds & Plants</a></li>
+                        <li><a href="index.php?page=1006">Agriculture Accessories</a></li>
+                        <li><a href="index.php?page=1007">Other Food & Agriculture</a></li>
+                    </ul>
+                </div><!-- /collapsible -->
+                <div class="cnt-margin" data-role="collapsible" data-mini="true" data-theme="a" data-content-theme="a">
+                    <h4>Animals</h4>
+                    <ul data-role="listview" class="view-ad-list" data-filter="true">
+                        <li><a href="index.php?page=1101">Cats</a></li>
+                        <li><a href="index.php?page=1102">Dogs</a></li>
+                        <li><a href="index.php?page=1103">Rabbits</a></li>
+                        <li><a href="index.php?page=1104">Reptiles</a></li>
+                        <li><a href="index.php?page=1105">Birds</a></li>
+                        <li><a href="index.php?page=1106">Fish</a></li>
+                        <li><a href="index.php?page=1107">Farm animals</a></li>
+                        <li><a href="index.php?page=1108">Animal Cages</a></li>
+                        <li><a href="index.php?page=1109">Animal Foods</a></li>
+                        <li><a href="index.php?page=1110">Animal Toys</a></li>
+                        <li><a href="index.php?page=1111">Other</a></li>
+
+                    </ul>
+                </div><!-- /collapsible -->
+                <!--Featured Adz Start-->
+                <div class="ui-grid-solo">
+                    <h3 style="color: #C858CB; margin: 5px auto -8px 3px">Featured Adz</h3>
+                    <ul data-role="listview" data-split-icon="info" data-split-theme="a" data-inset="true">
+                        <li><a href="#" style="background-color: #EAEAEA; padding: 0px; padding-left: 100px">
+                                <img style="height: 100%" src="img/adz/bike1.jpg">
+                                <h5>Yamaha FZ-S in Colombo for Sell</h5>
+                                <p>FZ S Model Bike.
+                                    BAQ num.
+                                    Front Dish Brake.
+                                    153 cc, Original Engine.
+                                    2 key.
+                                    full insurance.</p>
+                                <p>Price : LKR 310,000</p></a>
+                            <a href="#bike1" data-rel="popup" data-position-to="window" data-transition="pop">Info</a>
+                        </li>
+                        <li><a href="#" style="background-color: #EAEAEA; margin-top: 5px; padding: 0px; padding-left: 100px">
+                                <img style="height: 100%" src="img/adz/lap1.jpg">
+                                <h5>Apple Macbook Air 13.3-inch Laptop</h5>
+                                <p>Faster Flash Storage; USB 3.0; 720p FaceTime HD Camera
+                                    1.8 GHz Intel Core i5 Processor
+                                    128 GB Solid State Drive; 4 GB DDR3 RAM
+                                    Intel HD Graphics 4000; 13.3-inch LED Display</p>
+                                <p>Price : $975.00</p></a>
+                            <a href="#lap1" data-rel="popup" data-position-to="window" data-transition="pop">Info</a>
+                        </li>
+                    </ul>
+                </div>
+                <div data-role="popup" id="bike1" data-theme="b" data-overlay-theme="b" class="ui-content" style="max-width:340px; padding-bottom:2em;">
+                    <a href="#"
+                       data-theme="b"
+                       data-role="button"
+                       data-corners="false"
+                       data-mini="true"
+                       data-icon="delete"
+                       data-iconpos="notext"
+                       data-rel="back"
+                       >Close</a>
+                    <img src="img/adz/bike1.jpg">
+                    <h4 style="color: #09BECD">Yamaha FZ-S in Colombo for Sell</h4>
+                    <p>FZ S Model Bike.
+                        BAQ num.
+                        Front Dish Brake.
+                        153 cc, Original Engine.
+                        2 key.
+                        full insurance.</p>
+                    <p style="color: #09BECD"><i>Contact Details</i></p>
+                    <p>Name: Tharkana Kodagoda</p>
+                    <p>E-mail: tharkana@gmail.com</p>
+                    <p>Mobile: 0758768932</p>
+                </div>
+                <div data-role="popup" id="lap1" data-theme="b" data-overlay-theme="b" class="ui-content" style="max-width:340px; padding-bottom:2em;">
+                    <a href="#"
+                       data-theme="b"
+                       data-role="button"
+                       data-corners="false"
+                       data-mini="true"
+                       data-icon="delete"
+                       data-iconpos="notext"
+                       data-rel="back"
+                       >Close</a>
+                    <img src="img/adz/lap1.jpg">
+                    <h4 style="color: #09BECD">Apple Macbook Air 13.3-inch Laptop</h4>
+                    <p>Faster Flash Storage; USB 3.0; 720p FaceTime HD Camera
+                        1.8 GHz Intel Core i5 Processor
+                        128 GB Solid State Drive; 4 GB DDR3 RAM
+                        Intel HD Graphics 4000; 13.3-inch LED Display</p>
+                    <p>Price : $975.00</p>
+                    <p style="color: #09BECD"><i>Contact Details</i></p>
+                    <p>Name: Anton Dilshan</p>
+                    <p>E-mail: anton@gmail.com</p>
+                    <p>Mobile: 0758768932</p>
+                </div>
+                <!--Featured Adz End-->
+            </div>
+            <!--Page main content End-->
+
+            <!--Footer Start-->
+            <div data-role="footer" data-position="fixed">
+                <div data-role="navbar">
+                    <ul id="footer">
+                        <li><a href="index.html"
+                               data-role="button"
+                               data-icon="grid"
+                               data-transition="flip"
+                               class="font-driod"
+                               ></a></li>
+                        <li><a href="viewad.html"
+                               data-role="button"
+                               data-icon="eye"
+                               data-transition="slide"
+                               class="font-driod ui-btn-icon-left"
+                               ></a></li>
+                        <li><a href="postad.html"
+                               data-role="button"
+                               data-icon="plus"
+                               data-transition="slide"
+                               class="font-driod"
+                               ></a></li>  
+                    </ul>
+                </div>
+            </div>
+            <!--Footer End-->
+
+        </div>
+    </body>
+</html>

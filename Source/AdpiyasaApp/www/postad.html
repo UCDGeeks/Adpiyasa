@@ -1,0 +1,239 @@
+<!--
+ *
+ *   Copyright © 2009 - 2013 KnightSofts Solutions.
+ *   All Rights Reserved.
+ *
+ *   These materials are unpublished, proprietary, confidential source code of
+ *   KnightSofts Solutions (pvt) Limited and constitute a TRADE SECRET of KnightSofts Solutions (pvt) Limited.
+ *
+ *   Author : S.Priyanga <s.priyanga22@gmail.com>
+ *   Created on : Sep 11, 2014, 10:50:46 PM
+ *   
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Post Adz</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/jqmobile_143.min.css" />
+        <script src="js/jquery-1.11.1.min.js"></script>
+        <script src="js/jqmobile_143.min.js"></script>
+        <!-- Resources -->
+        <script src="js/myscript.js"></script>
+        <link rel="stylesheet" href="css/mystyles.css" />
+    </head>
+    <body>
+        <div id="index" data-role="page" data-title="Welcome">
+            <!--Left User Panel Start-->
+            <div id="nav-panel" data-role="panel" data-position-fixed="true" data-display="push" data-theme="a" style="background: #F2F2F2">    
+                <a href="#"
+                   data-theme="a"
+                   data-role="button"
+                   data-corners="false"
+                   data-mini="true"
+                   data-icon="delete"
+                   data-iconpos="center"
+                   data-rel="close"
+                   class="font-driod"
+                   style="color: #0099cc"
+                   >Click to go Back</a>
+                <ul data-role="controlgroup" data-corners="false" data-mini="true" data-theme="a" class="nav-search">
+                    <li><a href="#"
+                           class="pannel-txt"
+                           data-theme="a"
+                           data-role="button"
+                           data-icon="arrow-r"
+                           data-iconpos="right"
+                           data-transition="slide"
+                           ><img class="pannel-img-icon" src="img/member.png" />Profile</a></li>
+                    <li><a href="#"
+                           class="pannel-txt"
+                           data-theme="a"
+                           data-role="button"
+                           data-icon="arrow-r"
+                           data-iconpos="right"
+                           data-transition="slide"
+                           ><img class="pannel-img-icon" src="img/viewadz.png" />Edit Adz</a></li>
+                    <li><a href="#"
+                           class="pannel-txt"
+                           data-theme="a"
+                           data-role="button"
+                           data-icon="arrow-r"
+                           data-iconpos="right"
+                           data-transition="slide"
+                           ><img class="pannel-img-icon" src="img/Skype-icon.png" />Business Section</a></li>
+                    <li><a href="#"
+                           class="pannel-txt"
+                           data-theme="a"
+                           data-role="button"
+                           data-icon="arrow-r"
+                           data-iconpos="right"
+                           data-transition="slide"
+                           ><img class="pannel-img-icon" src="img/Notes-icon.png" />F & Q</a></li>
+                    <li><a href="#"
+                           class="pannel-txt"
+                           data-theme="a"
+                           data-role="button"
+                           data-icon="arrow-r"
+                           data-iconpos="right"
+                           data-transition="slide"
+                           ><img class="pannel-img-icon" src="img/Notes-icon.png" />Help</a></li>
+                    <li><a href="contactus.html"
+                           class="pannel-txt"
+                           data-theme="a"
+                           data-role="button"
+                           data-icon="arrow-r"
+                           data-iconpos="right"
+                           data-transition="slide"
+                           ><img class="pannel-img-icon" src="img/Mail-icon.png" />Contact Us</a></li>
+                    <li><a href="aboutus.html"
+                           class="pannel-txt"
+                           data-theme="a"
+                           data-role="button"
+                           data-icon="arrow-r"
+                           data-iconpos="right"
+                           data-transition="slide"
+                           ><img class="pannel-img-icon" src="img/pin.png" />About Us</a></li>      
+                </ul>
+
+                <h6 class="my-h6">Copyright © Ad Piyasa 2014
+                    <br>All Rights Reserved.
+                    <br>Powered By :<a href="http://www.d2real.com">D2Real</a></h6>
+                <center><img class="d2rlogo-img" style="margin:-8px" src="img/dlogo.png" /></center>
+            </div>
+            <!--Left User Panel End-->
+
+            <!--Right Login Panel Start-->
+            <div data-role="panel" data-position="right" data-position-fixed="true" data-display="overlay" data-theme="a" id="add-form">
+                <div id="login-panel" data-role="header" data-position="fixed">
+                    <h2 style="color: #0099cc">Sign In</h2>
+                </div>
+                <br /><br />
+                <form id="signin" class="userform">
+                    <p>Enter your username email or mobile number</p>
+                    <label for="name">Username:</label>
+                    <input type="text" name="name" id="name" value="" data-clear-btn="true" data-mini="true">
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" id="password" value="" data-clear-btn="true" autocomplete="off" data-mini="true">
+                    <div class="ui-grid-a">
+                        <div class="ui-block-a"><a href="#" class="font-driod" data-rel="close" data-role="button" data-theme="a" data-mini="true">Cancel</a></div>
+                        <div class="ui-block-b"><a href="index.html" class="font-driod" data-rel="close" data-role="button" data-theme="a" data-mini="true">Sign in</a></div>
+                    </div>
+                    <div class="ui-grid-solo">
+                        <a href="signup.html"
+                           data-role="button"
+                           data-icon="edit"
+                           data-iconpos="right"
+                           data-transition="slide"
+                           data-inline="false"
+                           class="font-driod"
+                           >Or Register</a>
+                    </div>
+                </form>
+            </div>
+            <!--Right login Panel End-->
+
+            <!--Page main content Start-->
+            <div id="main-header" data-role="header" data-position="fixed">
+                <a href="#nav-panel" data-icon="bars" data-iconpos="notext">Menu</a>
+                <h1>Post Adz</h1>
+                <a href="#add-form" data-icon="gear" data-iconpos="notext">Add</a>
+            </div>
+            <div data-role="content">
+                <h3>Fill the Ad Details</h3>
+                <form>
+                    <div class="ui-field-contain">
+                        <label for="main-cat">Select a Category:</label>
+                        <select name="main-cat" id="main-cat" data-mini="true">
+                            <option value="1">Electronics</option>
+                            <option value="2">Vehicles</option>
+                            <option value="3">Real Estate</option>
+                            <option value="4">Computers</option>
+                            <option value="4">Mobile Phones</option>
+                            <option value="4">Education</option>
+                            <option value="4">Musical Instruments & Gear</option>
+                            <option value="4">Home & Personal Items</option>
+                            <option value="4">Leisure, Hobby & Sports</option>
+                            <option value="4">Food & Agriculture</option>
+                            <option value="4">Animals</option>
+                        </select>
+                    </div>
+                    <div class="ui-field-contain">
+                        <label for="sub-cat">Select a Sub Category:</label>
+                        <select name="sub-cat" id="sub-cat" data-mini="true">
+                            <option value="1">Home Speakers & Subwoofers</option>
+                            <option value="2">Digital cameras</option>
+                            <option value="3">Camcoders</option>
+                            <option value="4">Camera & Photo accessories</option>
+                            <option value="4">Binoculars & Telescopes</option>
+                            <option value="4">Televisions</option>
+                            <option value="4">Car audio systems</option>
+                        </select>
+                    </div>
+                    <label for="text-basic">Add Title:</label>
+                    <input type="text" name="text-basic" id="text-basic" value="">
+                    <label for="textarea">Description:</label>
+                    <textarea cols="40" rows="4" name="textarea" id="textarea"></textarea>
+                    <label for="text-basic">Price:</label>
+                    <input type="text" name="price" id="price" value="">
+                    <label for="tel">Tel:</label>
+                    <input type="tel" name="tel" id="tel" value="">
+                    <label for="tel">Email:</label>
+                    <input type="email" name="email" id="email" value="">
+                    <label for="file">Image:</label>
+                    <input type="file" name="file" id="file">
+                    <div class="ui-grid-a">
+                        <div class="ui-block-a">
+                            <a href="index.html" 
+                               data-rel="close"
+                               data-role="button"
+                               data-theme="a"
+                               data-transition="flip"
+                               data-mini="true"
+                               >Cancel</a></div>
+                        <div class="ui-block-b">
+                            <a href="ads.html"
+                               data-rel="close"
+                               data-role="button"
+                               data-theme="a"
+                               data-mini="true"
+                               >Publish</a></div>
+                    </div>
+                </form>
+            </div>
+            <!--Page main content End-->
+
+            <!--Footer Start-->
+            <div data-role="footer" data-position="fixed">
+                <div data-role="navbar">
+                    <ul id="footer">
+                        <li><a href="index.html"
+                               data-role="button"
+                               data-icon="grid"
+                               data-transition="flip"
+                               class="font-driod"
+                               ></a></li>
+                        <li><a href="viewad.html"
+                               data-role="button"
+                               data-icon="eye"
+                               data-transition="slide"
+                               class="font-driod ui-btn-icon-left"
+                               ></a></li>
+                        <li><a href="postad.html"
+                               data-role="button"
+                               data-icon="plus"
+                               data-transition="slide"
+                               class="font-driod"
+                               ></a></li>  
+                    </ul>
+                </div>
+            </div>
+            <!--Footer End-->
+
+        </div>
+    </body>
+</html>

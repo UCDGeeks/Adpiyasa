@@ -1,0 +1,465 @@
+<!--
+ *
+ *   Copyright © 2009 - 2013 KnightSofts Solutions.
+ *   All Rights Reserved.
+ *
+ *   These materials are unpublished, proprietary, confidential source code of
+ *   KnightSofts Solutions (pvt) Limited and constitute a TRADE SECRET of KnightSofts Solutions (pvt) Limited.
+ *
+ *   Author : S.Priyanga <s.priyanga22@gmail.com>
+ *   Created on : Sep 11, 2014, 10:50:46 PM
+ *   
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="utf-8" />
+	<title>Welcome</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/jqmobile_143.min.css" />
+        <script src="js/jquery-1.11.1.min.js"></script>
+        <script src="js/jqmobile_143.min.js"></script>
+<!-- Resources -->
+	<script src="js/myscript.js"></script>
+	<link rel="stylesheet" href="css/mystyles.css" />
+</head>
+    <body>
+        <div id="index" data-role="page" data-title="Welcome">
+            <!--Left User Panel Start-->
+            <div id="nav-panel" data-role="panel" data-position-fixed="true" data-display="push" data-theme="a" style="background: #F2F2F2">    
+                <a href="#"
+                   data-theme="a"
+                   data-role="button"
+                   data-corners="false"
+                   data-mini="true"
+                   data-icon="delete"
+                   data-iconpos="center"
+                   data-rel="close"
+                   class="font-driod"
+                   style="color: #0099cc"
+                   >Click to go Back</a>
+                <ul data-role="controlgroup" data-corners="false" data-mini="true" data-theme="a" class="nav-search">
+                    <li><a href="#"
+                           class="pannel-txt"
+                           data-theme="a"
+                           data-role="button"
+                           data-icon="arrow-r"
+                           data-iconpos="right"
+                           data-transition="slide"
+                           ><img class="pannel-img-icon" src="img/member.png" />Profile</a></li>
+                    <li><a href="#"
+                           class="pannel-txt"
+                           data-theme="a"
+                           data-role="button"
+                           data-icon="arrow-r"
+                           data-iconpos="right"
+                           data-transition="slide"
+                           ><img class="pannel-img-icon" src="img/viewadz.png" />Edit Adz</a></li>
+                    <li><a href="#"
+                           class="pannel-txt"
+                           data-theme="a"
+                           data-role="button"
+                           data-icon="arrow-r"
+                           data-iconpos="right"
+                           data-transition="slide"
+                           ><img class="pannel-img-icon" src="img/Skype-icon.png" />Business Section</a></li>
+                    <li><a href="#"
+                           class="pannel-txt"
+                           data-theme="a"
+                           data-role="button"
+                           data-icon="arrow-r"
+                           data-iconpos="right"
+                           data-transition="slide"
+                           ><img class="pannel-img-icon" src="img/Notes-icon.png" />F & Q</a></li>
+                    <li><a href="#"
+                           class="pannel-txt"
+                           data-theme="a"
+                           data-role="button"
+                           data-icon="arrow-r"
+                           data-iconpos="right"
+                           data-transition="slide"
+                           ><img class="pannel-img-icon" src="img/Notes-icon.png" />Help</a></li>
+                    <li><a href="contactus.html"
+                           class="pannel-txt"
+                           data-theme="a"
+                           data-role="button"
+                           data-icon="arrow-r"
+                           data-iconpos="right"
+                           data-transition="slide"
+                           ><img class="pannel-img-icon" src="img/Mail-icon.png" />Contact Us</a></li>
+                    <li><a href="aboutus.html"
+                           class="pannel-txt"
+                           data-theme="a"
+                           data-role="button"
+                           data-icon="arrow-r"
+                           data-iconpos="right"
+                           data-transition="slide"
+                           ><img class="pannel-img-icon" src="img/pin.png" />About Us</a></li>      
+                </ul>
+
+                <h6 class="my-h6">Copyright © Ad Piyasa 2014
+                    <br>All Rights Reserved.
+                    <br>Powered By :<a href="http://www.d2real.com">D2Real</a></h6>
+                <center><img class="d2rlogo-img" style="margin:-8px" src="img/dlogo.png" /></center>
+            </div>
+            <!--Left User Panel End-->
+
+            <!--Right Login Panel Start-->
+            <div data-role="panel" data-position="right" data-position-fixed="true" data-display="overlay" data-theme="a" id="add-form">
+                <div id="login-panel" data-role="header" data-position="fixed">
+                    <h2 style="color: #0099cc">Sign In</h2>
+                </div>
+                <br /><br />
+                <form id="signin" class="userform">
+                    <p>Enter your username email or mobile number</p>
+                    <label for="name">Username:</label>
+                    <input type="text" name="name" id="name" value="" data-clear-btn="true" data-mini="true">
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" id="password" value="" data-clear-btn="true" autocomplete="off" data-mini="true">
+                    <div class="ui-grid-a">
+                        <div class="ui-block-a"><a href="#" class="font-driod" data-rel="close" data-role="button" data-theme="a" data-mini="true">Cancel</a></div>
+                        <div class="ui-block-b"><a href="index.html" class="font-driod" data-rel="close" data-role="button" data-theme="a" data-mini="true">Sign in</a></div>
+                    </div>
+                    <div class="ui-grid-solo">
+                        <a href="signup.html"
+                           data-role="button"
+                           data-icon="edit"
+                           data-iconpos="right"
+                           data-transition="slide"
+                           data-inline="false"
+                           class="font-driod"
+                           >Or Register</a>
+                    </div>
+                </form>
+            </div>
+            <!--Right login Panel End-->
+
+            <!--Page main content Start-->
+            <div id="main-header" data-role="header" data-position="fixed">
+                <a href="#nav-panel" data-icon="bars" data-iconpos="notext">Menu</a>
+                <h1>Advertisements</h1>
+                <a href="#add-form" data-icon="gear" data-iconpos="notext">Add</a>
+            </div>
+            <div data-role="content">
+                <!--Featured Adz Start-->
+                <div class="ui-grid-solo">
+                    <ul data-role="listview" data-split-icon="info" data-split-theme="a" data-inset="true">
+                        <li><a href="#" style="background-color: #EAEAEA; padding: 0px; padding-left: 100px">
+                                <img style="height: 100%" src="img/adz/Car1.jpg">
+                                <h5>BMW Car for sale in Sri Lanka</h5>
+                                <p>Mileage - 65,000km
+                                    Color - Black
+                                    European Spec
+                                    Sunroof
+                                    Fully Loaded Car With M-Tech Kit
+                                    Time Wasters and Joy Rides won't be entertained. Reluctant sale due to migration.</p>
+                                <p>Price : LKR. 5575000</p></a>
+                            <a href="#car1" data-rel="popup" data-position-to="window" data-transition="pop">Info</a>
+                        </li>
+                        <li><a href="#" style="background-color: #EAEAEA; margin-top: 5px; padding: 0px; padding-left: 100px">
+                                <img style="height: 100%" src="img/adz/phone2.jpg">
+                                <h5>iPhone 6 with BRAND NEW CONDITION</h5>
+                                <p>Factory unlock 
+                                    Black Color/ Housing changed White color with gold back 
+                                    In mint/ close to BRAND NEW condition. Back and front stickers still on. 
+                                    Full set available with Same IMEI Box</p>
+                                <p>Price : $ 800.00</p></a>
+                            <a href="#iphone" data-rel="popup" data-position-to="window" data-transition="pop">Info</a>
+                        </li>
+                        <li><a href="#" style="background-color: #EAEAEA; margin-top: 5px; padding: 0px; padding-left: 100px">
+                                <img style="height: 100%" src="img/adz/bike1.jpg">
+                                <h5>Yamaha FZ-S in Colombo for Sell</h5>
+                                <p>FZ S Model Bike.
+                                    BAQ num.
+                                    Front Dish Brake.
+                                    153 cc, Original Engine.
+                                    2 key.
+                                    full insurance.</p>
+                                <p>Price : LKR 310,000</p></a>
+                            <a href="#bike1" data-rel="popup" data-position-to="window" data-transition="pop">Info</a>
+                        </li>
+                        <li><a href="#" style="background-color: #EAEAEA; margin-top: 5px; padding: 0px; padding-left: 100px">
+                                <img style="height: 100%" src="img/adz/lap1.jpg">
+                                <h5>Apple Macbook Air 13.3-inch Laptop</h5>
+                                <p>Faster Flash Storage; USB 3.0; 720p FaceTime HD Camera
+                                    1.8 GHz Intel Core i5 Processor
+                                    128 GB Solid State Drive; 4 GB DDR3 RAM
+                                    Intel HD Graphics 4000; 13.3-inch LED Display</p>
+                                <p>Price : $975.00</p></a>
+                            <a href="#lap1" data-rel="popup" data-position-to="window" data-transition="pop">Info</a>
+                        </li>
+                        <li><a href="#" style="background-color: #EAEAEA; margin-top: 5px; padding: 0px; padding-left: 100px">
+                            <img style="height: 100%" src="img/adz/watches.png">
+                            <h5>Tag Heuer Formula 1 Ladies Ceramic Swiss Quartz Watch</h5>
+                            <p> Band Material: Ceramic, 
+                                Brand: 	Tag Heuer, 
+                                Gender: Women's, 
+                                Movement: Quartz, 
+                                Display: Analog, 
+                                Features:Water Resistant, 
+                                Country/Region of Manufacture: Switzerland</p>
+                            <p>Price : LKR. 100000</p></a>
+                            <a href="#watch1" data-rel="popup" data-position-to="window" data-transition="pop">Info</a>
+                        </li>
+                        <li><a href="#" style="background-color: #EAEAEA; margin-top: 5px; padding: 0px; padding-left: 100px">
+                            <img style="height: 100%" src="img/adz/dress.jpg">
+                            <h5>Beautiful Blue Monsoon Dress Blue Silk</h5>
+                            <p> Size: 14, 
+                                Length: Knee Length, 
+                                Brand: Monsoon, 
+                                Pattern: Multi-Coloured, 
+                                Occasion: Party, 
+                                Style: Asymmetric Hem, 
+                                Main Colour: Blue, 
+                                Exact Material: Silk, 
+                                Material: Silk, 
+                                Neckline: Scoop Neck</p>
+                            <p>Price : LKR. 4000.00</p></a>
+                            <a href="#dress1" data-rel="popup" data-position-to="window" data-transition="pop">Info</a>
+                        </li>
+                        <li><a href="#" style="background-color: #EAEAEA; margin-top: 5px; padding: 0px; padding-left: 100px">
+                            <img style="height: 100%" src="img/adz/chessboard.jpg">
+                            <h5>Chess, 8.5 inch foldable carved wooden chessboard, chess pieces in solid wooden</h5>
+                            <p> This is a brand new Chess set with an elegant, carved wooden chessboard in fine texture. The chess board measures approximately 8.5" in length, 8.3" in width, 0.83" in thickness when unfolded. This is the size of a regular chess board. The chess board is made of solid wood. It is foldable with an inner compartment for storage of chess pieces., 
+                                The playing pieces are made of quality solid wood. The "King" is 1.83 inch tall, and the "Pawn" is 0.79 inch in height., 
+                                There are hollow sections beneath the wooden chess board. When the chess board folds, these hollow sections will become the storage compartment for all 32 playing pieces., 
+                                The original packing gives the chess necessary protection against various storage conditions.</p>
+                            <p>Price : LKR. 2000</p></a>
+                            <a href="#chessboard1" data-rel="popup" data-position-to="window" data-transition="pop">Info</a>
+                        </li>
+                        <li><a href="#" style="background-color: #EAEAEA; margin-top: 5px; padding: 0px; padding-left: 100px">
+                            <img style="height: 100%" src="img/adz/homethea.jpg">
+                            <h5>Panasonic SC-BTT195 Full HD 3D Blu-Ray Home Theater System w/ Tall Boy Speakers</h5>
+                            <p> Brand: 	Panasonic, 
+                                Model: SC-BTT195, 
+                                Receiver Combo Features: Blu-ray Player, 
+                                System Configuration/Channels: 5.1, 
+                                Surround Sound Formats:Dolby Digital Plus (DD+), Dolby Digital, DTS-HD High Resolution, Dolby TrueHD, DTS-HD Master Audio, Dolby Pro Logic II, 
+                            <p>Price : LKR. 25000</p></a>
+                            <a href="#hometheater1" data-rel="popup" data-position-to="window" data-transition="pop">Info</a>
+                        </li>
+                    </ul>
+                </div>
+                <div data-role="popup" id="car1" data-theme="b" data-overlay-theme="b" class="ui-content" style="max-width:340px; padding-bottom:2em;">
+                    <a href="#"
+                       data-theme="b"
+                       data-role="button"
+                       data-corners="false"
+                       data-mini="true"
+                       data-icon="delete"
+                       data-iconpos="notext"
+                       data-rel="back"
+                       >Close</a>
+                    <img src="img/adz/Car1.jpg">
+                    <h4 style="color: #09BECD">BMW Car for sale in Sri Lanka</h4>
+                    <p>Mileage - 65,000km
+                        Color - Black
+                        European Spec
+                        Sunroof
+                        Fully Loaded Car With M-Tech Kit
+                        Time Wasters and Joy Rides won't be entertained. Reluctant sale due to migration.</p>
+                    <p>Price : LKR. 5575000</p>
+                    <p style="color: #09BECD"><i>Contact Details</i></p>
+                    <p>Name: Chamara Ranathunga</p>
+                    <p>E-mail: chamara@gmail.com</p>
+                    <p>Mobile: 0655242890</p>
+                </div>
+                <div data-role="popup" id="iphone" data-theme="b" data-overlay-theme="b" class="ui-content" style="max-width:340px; padding-bottom:2em;">
+                    <a href="#"
+                       data-theme="b"
+                       data-role="button"
+                       data-corners="false"
+                       data-mini="true"
+                       data-icon="delete"
+                       data-iconpos="notext"
+                       data-rel="back"
+                       >Close</a>
+                    <img src="img/adz/phone2.jpg">
+                    <h4 style="color: #09BECD">iPhone 6 with BRAND NEW CONDITION</h4>
+                    <p>Factory unlock 
+                        Black Color/ Housing changed White color with gold back 
+                        In mint/ close to BRAND NEW condition. Back and front stickers still on. 
+                        Full set available with Same IMEI Box</p>
+                    <p style="color: #09BECD"><i>Contact Details</i></p>
+                    <p>Name: Srimal Priyanga</p>
+                    <p>E-mail: priyanga@d2real.com</p>
+                    <p>Dial: 0779093013</p>
+                </div>
+                <div data-role="popup" id="bike1" data-theme="b" data-overlay-theme="b" class="ui-content" style="max-width:340px; padding-bottom:2em;">
+                    <a href="#"
+                       data-theme="b"
+                       data-role="button"
+                       data-corners="false"
+                       data-mini="true"
+                       data-icon="delete"
+                       data-iconpos="notext"
+                       data-rel="back"
+                       >Close</a>
+                    <img src="img/adz/bike1.jpg">
+                    <h4 style="color: #09BECD">Yamaha FZ-S in Colombo for Sell</h4>
+                    <p>FZ S Model Bike.
+                        BAQ num.
+                        Front Dish Brake.
+                        153 cc, Original Engine.
+                        2 key.
+                        full insurance.</p>
+                    <p style="color: #09BECD"><i>Contact Details</i></p>
+                    <p>Name: Tharkana Kodagoda</p>
+                    <p>E-mail: tharkana@gmail.com</p>
+                    <p>Mobile: 0758768932</p>
+                </div>
+                <div data-role="popup" id="lap1" data-theme="b" data-overlay-theme="b" class="ui-content" style="max-width:340px; padding-bottom:2em;">
+                    <a href="#"
+                       data-theme="b"
+                       data-role="button"
+                       data-corners="false"
+                       data-mini="true"
+                       data-icon="delete"
+                       data-iconpos="notext"
+                       data-rel="back"
+                       >Close</a>
+                    <img src="img/adz/lap1.jpg">
+                    <h4 style="color: #09BECD">Apple Macbook Air 13.3-inch Laptop</h4>
+                    <p>Faster Flash Storage; USB 3.0; 720p FaceTime HD Camera
+                        1.8 GHz Intel Core i5 Processor
+                        128 GB Solid State Drive; 4 GB DDR3 RAM
+                        Intel HD Graphics 4000; 13.3-inch LED Display</p>
+                    <p>Price : $975.00</p>
+                    <p style="color: #09BECD"><i>Contact Details</i></p>
+                    <p>Name: Anton Dilshan</p>
+                    <p>E-mail: anton@gmail.com</p>
+                    <p>Mobile: 0758768932</p>
+                </div>
+                <div data-role="popup" id="dress1" data-theme="b" data-overlay-theme="b" class="ui-content" style="max-width:340px; padding-bottom:2em;">
+                    <a href="#"
+                       data-theme="b"
+                       data-role="button"
+                       data-corners="false"
+                       data-mini="true"
+                       data-icon="delete"
+                       data-iconpos="notext"
+                       data-rel="back"
+                            >Close</a>
+                    <img src="img/adz/dress.jpg">
+                    <h4 style="color: #09BECD">Beautiful Blue Monsoon Dress Blue Silk</h4>
+                    <p>Stunning Monsoon dress for parties, weddings, races, nights out etc. Size 14  <br>
+
+                        Fully lined dress. The outer layer is 100% silk.  <br>
+
+                        The colour is a rich dark blue background and blue lining with a multi coloured pattern colours include aqua, orange, pink, silver, taupe.  <br>
+                    </p>
+                    <p>Price : LKR 4000.00</p>
+                    <p style="color: #09BECD"><i>Contact Details</i></p>
+                    <p>Name: Tharkana Kodagoda</p>
+                    <p>E-mail: nsmcs2013tk@gmail.com</p>
+                    <p>Mobile: 0758768932</p>
+                </div>
+                <div data-role="popup" id="watch1" data-theme="b" data-overlay-theme="b" class="ui-content" style="max-width:340px; padding-bottom:2em;">
+                    <a href="#"
+                       data-theme="b"
+                       data-role="button"
+                       data-corners="false"
+                       data-mini="true"
+                       data-icon="delete"
+                       data-iconpos="notext"
+                       data-rel="back"
+                            >Close</a>
+                    <img src="img/adz/watches.png">
+                    <h4 style="color: #09BECD">Tag Heuer Formula 1 Ladies Ceramic Swiss Quartz Watch</h4>
+                    <p>- Polished Stainless Steel Case & Bracelet  <br>
+                        - Black Ceramic Bezel & Inner Links  <br>
+                        - Black Dial  <br>
+                        - Silver Tone-luminous Hour & Minute Hands  <br>
+                        - Silver Tone Second Timer Hand  <br>
+                        - Silver Tone Numeral & Line Hour Markers  <br>
+                        - Date Function at 3:00 Position  <br>
+                        
+                    </p>
+                    <p>Price : LKR 100000.00</p>
+                    <p style="color: #09BECD"><i>Contact Details</i></p>
+                    <p>Name: Tharkana Kodagoda</p>
+                    <p>E-mail: nsmcs2013tk@gmail.com</p>
+                    <p>Mobile: 0758768932</p>
+                </div>
+                <div data-role="popup" id="chessboard1" data-theme="b" data-overlay-theme="b" class="ui-content" style="max-width:340px; padding-bottom:2em;">
+                    <a href="#"
+                       data-theme="b"
+                       data-role="button"
+                       data-corners="false"
+                       data-mini="true"
+                       data-icon="delete"
+                       data-iconpos="notext"
+                       data-rel="back"
+                            >Close</a>
+                    <img src="img/adz/chessboard.jpg">
+                    <h4 style="color: #09BECD">Chess, 8.5 inch foldable carved wooden chessboard, chess pieces in solid wooden</h4>
+                    <p>This is a brand new Chess set with an elegant, carved wooden chessboard in fine texture. The chess board measures approximately 8.5" in length, 8.3" in width, 0.83" in thickness when unfolded. This is the size of a regular chess board. The chess board is made of solid wood. It is foldable with an inner compartment for storage of chess pieces.
+
+                        The playing pieces are made of quality solid wood. The "King" is 1.83 inch tall, and the "Pawn" is 0.79 inch in height.
+
+                        </p>
+                    <p>Price : LKR 2000.00</p>
+                    <p style="color: #09BECD"><i>Contact Details</i></p>
+                    <p>Name: Tharkana Kodagoda</p>
+                    <p>E-mail: nsmcs2013tk@gmail.com</p>
+                    <p>Mobile: 0758768932</p>
+                </div>
+                <div data-role="popup" id="hometheater1" data-theme="b" data-overlay-theme="b" class="ui-content" style="max-width:340px; padding-bottom:2em;">
+                    <a href="#"
+                       data-theme="b"
+                       data-role="button"
+                       data-corners="false"
+                       data-mini="true"
+                       data-icon="delete"
+                       data-iconpos="notext"
+                       data-rel="back"
+                            >Close</a>
+                    <img src="img/adz/homethea.jpg">
+                    <h4 style="color: #09BECD">Panasonic SC-BTT195 Full HD 3D Blu-Ray Home Theater System w/ Tall Boy Speakers</h4>
+                    <p>Panasonic Blu-ray Disc home theaters have been developed under the concept of reproducing an ideal theater-like surround sound environment. The SC-BTT195 employs advanced technologies to reproduce clearer, enhanced theater-like surround sound to skillfully match high-quality 3D imagery. The integration of smart networking functions including Smartphone remote control, DLNA, Wireless LAN Ready, digital music connection for iPod/iPhone and VIERA Connect complements traditional home entertainment for an enriched, user-friendly audio/video experience.
+                        5.1 channel 1000W Total Power  <br>
+                        Surround Sound Formats:Dolby Digital Plus (DD+), Dolby Digital, DTS-HD High Resolution, Dolby TrueHD, DTS-HD Master Audio, Dolby Pro Logic II  <br>
+                        Playable Disc Formats: DVD-RW, BD-R DL, CD, BD-ROM, CD-R, BD-R, Blu-ray, BD-RE DL, DVD+R DL, DVD-R DL, CD-RW, DVD, DVD-R, DVD+R, BD-RE, DVD+RW</p>
+                    <p>Price : LKR 25000.00</p>
+                    <p style="color: #09BECD"><i>Contact Details</i></p>
+                    <p>Name: Tharkana Kodagoda</p>
+                    <p>E-mail: nsmcs2013tk@gmail.com</p>
+                    <p>Mobile: 0758768932</p>
+                </div>
+                <!--Featured Adz End-->
+            </div>
+            <!--Page main content End-->
+            
+            <!--Footer Start-->
+            <div data-role="footer" data-position="fixed">
+                <div data-role="navbar">
+                    <ul id="footer">
+                        <li><a href="index.html"
+                               data-role="button"
+                               data-icon="grid"
+                               data-transition="flip"
+                               class="font-driod"
+                               ></a></li>
+                        <li><a href="viewad.html"
+                               data-role="button"
+                               data-icon="eye"
+                               data-transition="slide"
+                               class="font-driod ui-btn-icon-left"
+                               ></a></li>
+                        <li><a href="postad.html"
+                               data-role="button"
+                               data-icon="plus"
+                               data-transition="slide"
+                               class="font-driod"
+                               ></a></li>  
+                    </ul>
+                </div>
+            </div>
+            <!--Footer End-->
+
+        </div>
+    </body>
+</html>
